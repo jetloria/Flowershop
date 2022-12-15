@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="append"></div>
+    <button id="randInt" onclick="clickMe()"> number</button>
+    <button id="randInt" onclick="inputRandom()">random number</button>
+    <input type="text" id="random" placeholder="a">
+    <input type="text" id="random2">
+</body>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+   var btnRand =  document.getElementById('randInt')
+   var inputRand =  document.getElementById('random')
+   var inputRand2 =  document.getElementById('random2')
+
+   function inputRandom(){
+    var a = Math.floor(Math.random() * 100);
+    console.log(a)
+        inputRand.value = a;
+        inputRand2.value = a;
+
+        
+
+   }
+function clickMe(){
+   const settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://type.fit/api/quotes",
+  "method": "GET"
+}
+
+$.ajax(settings).done(function (response) {
+	
+	var clk = document.getElementById(inputRand).value;
+	console.log(clk)
+	
+  const data = JSON.parse(response);
+  var quotes = clk;
+   for (i = 1; i <= quotes; i++){
+    var b = Math.floor(Math.random() * 1000)
+    console.log(b)
+    console.log(data[b].text);
+    $('.append').append(`
+    <div>Quote`+ i +`:`+ data[b].text +`</div>
+    `)
+   }
+	
+});
+}
+</script>
+</html>

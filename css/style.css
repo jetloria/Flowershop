@@ -1,0 +1,1518 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+.header{
+    position: relative;
+    z-index: 5;
+     
+}
+
+.header-wrapper{
+    position: fixed;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(46, 110, 65);
+    height: 90px;
+}
+
+.header-pic{
+    padding-left: 15px;
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+
+
+
+#nav-wrapper{
+    position: relative;
+    width: 100%;
+}
+
+.order-btn{
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    position:absolute;
+    top: 65%;
+    left: 14%;
+    border-style: solid;
+    
+}
+
+.orderbtn-bg{
+    background-color: rgb(46, 110, 65); 
+    color: white; 
+    border-radius: 2rem;
+    padding: 15px;
+}
+
+
+.orderbtn-bg:hover{
+    background-color: white ;
+    color: black;
+    border: rgb(46, 110, 65) solid;
+    
+    
+}
+
+.orderbtn-sellers{
+    background-color: rgb(46, 110, 65); 
+    color: white; 
+    border-radius: 2rem;
+    padding: 15px;
+    position:static;
+    margin-bottom: 60px;
+    right: 43%;
+    border-style: solid;
+    
+}
+
+.orderbtn-sellers:hover{
+    background-color: white ;
+    color: black;
+    border: rgb(46, 110, 65) solid;
+}
+
+ul.nav {
+    padding-left: 0px;
+    background-color:none;
+    text-align: center;
+    
+  }
+
+ul.nav li {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 25px; 
+  }
+
+ul.nav li:hover {
+    background-color: rgb(54, 52, 52);
+    transition-duration: 0.5s;
+  }
+
+ul.nav li::after{
+    
+    color: rgb(165, 163, 163);
+    display: inline-block;
+    font-weight: 400;
+    font-size: 1.25em;
+    margin: 0 .5em;
+}
+
+
+ul.nav li a {
+    color: white;
+    text-decoration: none;
+  }
+
+#content-wrapper .bg-text{
+    text-align: center;
+    font-size: 4vw;
+    position:absolute;
+    top: 30%;
+    left: 120px;
+    
+    
+}
+
+#content-wrapper .bg-text-two{
+    text-align: center;
+    font-size: 2vw;
+    position:absolute;
+    top: 50%;
+    left: 80px;
+
+}
+
+
+#content{
+    position: relative;
+
+}
+.content-wrapper{
+    position: relative;
+    
+}
+
+#content-wrapper img{
+    width: 100%;
+    max-height: 100vh;
+    height: 250%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+    
+    
+  }
+
+.wrapper{
+    display: flex;
+    flex-direction:column;
+    align-content:center;
+    align-items:stretch;
+    
+  }
+
+.steps{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.steps::before, .steps::after{
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 30%;
+    max-width: 200px;
+    background-color: black;
+    vertical-align: middle;
+    margin: 1rem;
+    
+}
+
+#steps-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center; 
+    position: relative;
+    margin-bottom: 90px;
+    
+
+    
+}
+
+.step-box{
+    position: relative;
+    margin: 50px 30px -10px 30px;
+    height: 150px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    text-align: center;
+    margin-top: 3em;
+    
+    
+    
+    
+}
+.step-box h2{
+    text-align: center;
+    margin: 5rem;
+    font-size: 30px;
+}
+
+.first-step-img {
+    background-image: url(../img/step_one.png);
+    position: absolute;
+    height: 5em;
+    width: 5em;
+    background-color: rgb(46, 110, 65);
+    bottom: 75%;
+    left: 40%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 35px;
+}
+
+.second-step-img {
+    background-image: url(../img/step_two.png);
+    position:absolute;
+    height: 5em;
+    width: 5em;
+    background-color: rgb(46, 110, 65);
+    bottom: 75%;
+    left: 40%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 35px;
+}
+
+.third-step-img {
+    background-image: url(../img/step_three.png);
+    position:absolute;
+    height: 5em;
+    width: 5em;
+    background-color: rgb(46, 110, 65);
+    bottom: 75%;
+    left: 40%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 35px;
+}
+
+#wrapper-order{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-content:center;
+    align-items:stretch;
+}
+
+.best-sellers{
+    font-size: 4vw;
+    margin-bottom: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+hr{
+    border-style: solid;
+    margin: .5rem;
+    opacity: .1;
+}
+
+#best-flowers{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#best-flowers-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+.bflower-box{
+    position: relative;
+    margin: 2rem;
+    height: 150px;
+    text-align:center;
+    margin-bottom: 250px;
+    transition: .5s ease-out;
+    
+      
+}
+
+.bflower-box:hover{
+    border-radius: 1rem;
+    z-index: 4;
+    transition: .5s ease-in-out;
+    transform: scale(1.2);
+     
+}
+
+.hover-text{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+}
+
+.img1   {
+    height: 300px;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor:pointer;
+}
+
+.best-flowers-wrapper h1{
+    cursor: pointer;
+}
+
+#shop-us{
+    background-image: url(../img/bkgflower.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center; 
+    position: relative;
+    
+}
+
+#shop-us .shop-us-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 2000px;
+    height: 700px;
+    justify-content: center; 
+    position: relative;
+    margin: 5rem;
+}
+
+.shop-us-wrapper .shop-design{
+
+    position: relative;
+    margin: 2rem;
+    height: 150px;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.shop-container{
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+
+.shop-img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+.shop-design h1{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+
+.shop-design p{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+#shop-us .shop-designtxt{
+    position: absolute;
+    color: #fff;
+    margin: 2rem;
+    height: 150px;
+    text-align: center;
+    margin-top: 3em;
+    top: 57%;
+}
+
+#shop-us .shop-designtxt h1{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+
+#shop-us .shop-designtxt p{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+/* .shop-designtxt{
+    position: absolute;
+    color: #fff;
+    margin: 2rem;
+    height: 150px;
+    text-align: center;
+    margin-top: 3em;
+    top: 57%;
+} */
+
+/* .shop-designtxt h1{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+} */
+
+/* .shop-designtxt p{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #fff;
+} */
+
+.contact-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center; 
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.contact-box{
+    position: relative;
+    margin: 2rem;
+    height: 150px;
+    text-align: left;
+    margin-top: 3em;
+}
+
+.contact-box h1{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.contact-box p{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.contact-list li{
+    margin: 20px;
+}
+
+.contact-list-sched li{
+    margin: 10px;
+}
+
+.contact-box-connect{
+    position: relative;
+    margin: 2rem;
+    height: 150px;
+    text-align: center;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.contact-box2 h1{
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.contact-img-fb{
+    position: absolute;
+    right: 80%;
+    bottom: 30%;
+    cursor: pointer;
+
+}
+
+.contact-img-twitter{
+    position: absolute;
+    right: 40%;
+    bottom: 30%;
+    cursor: pointer;
+
+}
+
+.contact-img-insta{
+    position: absolute;
+    right: 1%;
+    bottom: 30%;
+    cursor: pointer;
+
+}
+
+/* for order.html */
+
+.row-wrapper{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 0;
+
+}
+
+.table{
+    
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+}
+
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;   
+    left: 2%;
+    
+}
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.tblorder td th{
+    height: 400px;
+    width: 100%;
+}
+
+#row-text {
+    margin-top: 30rem;
+    padding: 2rem;
+    padding-left: 10rem;
+    
+    
+}
+
+#row-text h1{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#row-text p{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.row-wrapper table{
+    padding: 0rem 10rem 0rem 10rem;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#order-sect{
+    height: 160vh;
+}
+
+
+
+
+
+/* blossom */
+
+
+#containerblossom{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+    
+    
+  }
+
+#best-flowersblossom{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrapperblossom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+#bflower-box-blossom{
+    background-image: url(../img/flower1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-box-blossominfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+    
+      
+}
+
+#bflower-box-blossominfo .fixed{
+    color: red;
+    
+      
+}
+
+
+#bflower-box-blossominfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-box-blossominfo h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;
+    left: 2%;
+    
+}
+
+
+
+/* roses */
+
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+    
+    
+}
+
+.flower-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+#best-flowersroses{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrapperroses{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+#bflower-boxroses{
+    background-image: url(../img/roses.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-boxrosesinfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+    
+      
+}
+
+
+#bflower-boxrosesinfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-boxrosesinfo h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.vary{
+    color: red;
+}
+
+
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;
+    left: 2%;
+    
+}
+
+/* prim */
+
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+    
+    
+  }
+
+#best-flowersprim{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrapperprim{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+#bflower-boxprim{
+    background-image: url(../img/prim.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-boxpriminfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+    
+      
+}
+
+
+#bflower-boxpriminfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-boxpriminfo h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.vary{
+    color: red;
+}
+
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;
+    left: 2%;
+    
+}
+
+
+/* victoria */
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+    
+    
+  }
+
+#best-flowersvictoria{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrappervictoria{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+#bflower-boxvictoria{
+    background-image: url(../img/victoria.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-boxvictoriainfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+    
+      
+}
+
+
+#bflower-boxvictoriainfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-boxvictoriainfo h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.vary{
+    color: red;
+}
+
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;
+    left: 2%;
+    
+}
+
+/* plants */
+
+#order-sectplants{
+    height: 105vh;
+}
+
+#row-textpl {
+    margin-top: 2.9rem;
+    padding: 2rem;
+    padding-left: 10rem;
+    
+    
+}
+
+#row-textpl h1{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#row-textpl p{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+/* flowers */
+
+#order-sectflowers{
+    height: 105vh;
+}
+
+#row-textfl {
+    margin-top: 2.9rem;
+    padding: 2rem;
+    padding-left: 10rem;
+    
+}
+
+#row-textfl h1{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#row-textfl p{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+/* ficus */
+
+
+.flower-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+#best-flowersficus{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrapperficus{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+#bflower-boxficus{
+    background-image: url(../img/leaf1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-boxficusinfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+    
+      
+}
+
+
+#bflower-boxficusinfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-boxficus h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.vary{
+    color: red;
+}
+
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+
+
+
+/* Dieffenbachia Plant */
+
+
+
+.flower-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+#best-flowersdie{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrapperdie{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+#bflower-boxdie{
+    background-image: url(../img/leaf2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-boxdieinfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+    
+      
+}
+
+
+#bflower-boxdieinfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-boxdieinfo h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.vary{
+    color: red;
+}
+
+
+
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;
+    left: 2%;
+    
+}
+
+
+/* croton */
+
+.flower-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+#best-flowerscroton{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrappercroton{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+    
+}
+
+#bflower-boxcroton{
+    background-image: url(../img/leaf3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-boxcrotoninfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+    
+      
+}
+
+
+#bflower-boxcrotoninfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-boxcrotoninfo h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.vary{
+    color: red;
+}
+
+
+
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;
+    left: 2%;
+    
+}
+
+
+
+/* lemon */
+
+.flower-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+#best-flowerslemon{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 11rem;
+}
+
+#best-flowers-wrapperlemon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    justify-content: center; 
+    position: relative;
+
+}
+
+#bflower-boxlemon{
+    background-image: url(../img/leaf4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 55vh;
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+      
+}
+
+#bflower-boxlemoninfo{
+    position: relative;
+    margin: 2rem;
+    height: 55vh;
+    width: 100%;
+    text-align: left;
+          
+}
+
+
+#bflower-boxlemoninfo p{
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+      
+}
+
+
+.vl{
+    border-left: 6px solid green;
+    height: 100%;
+    position: absolute;
+    left: 48%;
+    margin-left: -3px;
+    top: 0;
+      
+}
+
+#bflower-boxlemoninfo h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.vary{
+    color: red;
+}
+
+.buy{
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    position:absolute;
+    top: 53%;
+    border-style: solid;
+    
+    
+}
+
+.buy-now{
+    background-color: rgb(46, 110, 65); 
+    color: white; 
+    border-radius: 2rem;
+    padding: 15px;
+    left: -2%;
+    
+}
+
+.buy-now:hover{
+    background-color: white ;
+    color: black;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home:hover{
+    background-color: rgb(46, 110, 65);
+    color: white;
+    border: rgb(46, 110, 65) solid;
+}
+
+.buy-home{
+    background-color: white; 
+    color: black; 
+    border-radius: 1rem;
+    padding: 3px;
+    top: 13%;
+    left: 2%;
+    
+}
+
+
+/*  Responsiveness */ 
+
+
+@media screen and (max-width: 992px) {
+    #steps-wrapper {
+        display: flex;
+        flex-direction: column;  
+  }
+
+  #best-flowers-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
